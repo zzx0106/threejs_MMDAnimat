@@ -1,0 +1,37 @@
+@import '../public/index.scss';
+html,
+body {
+    height: 100%;
+}
+
+#app {
+    width: 100%;
+    height: 100%;
+}
+
+.home-container {
+    height: 100%;
+    text-align: center;
+    .router-title {
+        font-size: 30px;
+        text-align: center;
+        font-weight: 600;
+        margin-top: 30px;
+    }
+    .sub-title {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    a {
+        display: block;
+        color: #000;
+        height: 30px;
+        line-height: 30px;
+        transition: 0.5s ease linear;
+    }
+    a:hover {
+        color: #fff;
+        background: #00c0ef;
+        transition: 0.5s ease linear;
+    }
+}

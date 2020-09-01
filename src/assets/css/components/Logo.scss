@@ -1,0 +1,12 @@
+@import 'assets/css/public/index.scss';
+.logo-box {
+   
+    @keyframes rotate {
+        0% {
+            transform: rotate3d(0, 0, 1, 0);
+        }
+        100% {
+            transform: rotate3d(0, 0, 1, 360deg);
+        }
+    }
+}
